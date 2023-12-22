@@ -1,73 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Home </title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 </head>
-<body>
-    <div>
-        <nav>
-          <div>
-          <a href="education.html"> &#9997;  My Education</a>|
-          <a href="volunteer.html"> &#127757; My Volunteer </a>|
-          <a href="hobby.html"> &#9918; My Hobby</a>   |                                                                                                                                                                                     
-          <a href="skills.html"> &#10004; My Skills </a>
-          </div> <br> <br>
-        </nav>
+<body class="bg-red-100">
+  <div>
+    <nav>
+      <div class="flex space-x-10"> 
+        <a class="basis-1/4 underline shadow-3xl rounded-3xl text-center text-gray-50 bg-black xl:text-2xl font-bold xl:mx-12 xl:mt-8 xl:py-5 hover:bg-gray-500" href="education.html">
+          &#9997; My Education
+        </a>
+        <a class="basis-1/4 underline shadow-3xl rounded-3xl text-center text-gray-50 bg-black xl:text-2xl font-bold xl:mx-12 xl:mt-8 xl:py-5 hover:bg-gray-500" href="volunteer.html">
+          &#127757; My Volunteer
+        </a>
+        <a class="basis-1/4 underline shadow-3xl rounded-3xl text-center text-gray-50 bg-black xl:text-2xl font-bold xl:mx-12 xl:mt-8 xl:py-5 hover:bg-gray-500" href="hobby.html">
+          &#9918; My Hobby
+        </a>
+        <a class="basis-1/4 underline shadow-3xl rounded-3xl text-center text-gray-50 bg-black xl:text-2xl font-bold xl:mx-12 xl:mt-8 xl:py-5 hover:bg-gray-500" href="skills.html">
+          &#10004; My Skills
+        </a>
+      </div> <br> <br>
+    </nav>
+  </div>
+  <div>
+    <h1 class="md:text-3xl hover:bg-red-600 xl:text-5xl text-gray-50 shadow-2xl rounded-3xl font-bold text-center bg-gradient-to-r from-pink-500 to-violet-300 xl:my-12 xl:mx-36 xl:py-8 hover:animate-pulse ">
+      &#10022; My Portfolio &#10022;
+    </h1>
+  </div>
+  <br> <br>
+  <section>
+    <fieldset class="card px-4 bg-purple-100 mx-4 md:mx-8 xl:mx-24 rounded-3xl shadow-3xl py-5 md:py-8 md:px-3">
+      <legend class="ml-6 my-4 text-3xl md:text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-800 to-blue-500">
+        <h2>&#9787; Mahlet Asrat</h2>
+      </legend>
+      <div class="flex flex-col md:flex-row items-center md:items-start">
+        <img class="rounded-3xl mx-auto md:mx-10 w-1/2 md:w-1/4 h-auto md:h-1/4 hover:animate-ping " src="../files/my_grad.jpg" alt="My Picture">
+        <div class="md:mx-6 md:ml-0 mt-6 md:mt-0 text-base md:text-2xl">
+          Meet Mahlet, a passionate and driven software engineering student at AAU who is dedicated to her studies and the world of technology. With an unwavering enthusiasm for learning, she is constantly pushing the boundaries of her knowledge and skills in the field. But her ambitions don't stop there. Mahlet is also actively involved in motivating and inspiring girls to pursue STEM fields, recognizing the importance of diversity and inclusivity in the tech industry. Through her work, she strives to break down barriers and empower young girls to embrace their potential in the world of science, technology, engineering, and mathematics.
+        </div>
+        <div class="bg-gray-100 md:w-64 h-64 xl:w-96 md:h-auto rounded-3xl shadow-3xl mx-6 mt-6 md:mt-0 px-4 py-4 text-lg md:text-2xl text-red-400">
+      <a  href="mailto:mahletasratz@gmail.com"><h3>&#9993; E-mail me</h3></a>
+      <a  href="tel:+251900830829"><h3><i class="fa fa-phone"></i> Phone me</h3></a>
+      <a  href="https://www.instagram.com/skiunior/"><i class="fa fa-instagram"></i> My Instagram</a>
+      <address class="mt-4 text-gray-900">Bethel, Addis Ababa, Ethiopia</address>
     </div>
-      
-        <div> 
-          <h1> &#10022;  My Portfolio  &#10022; </h1>
-      </div> 
-      <br> <br> 
-      <section> 
-        <div class="main">
-          <fieldset>
-              <legend><h2> &#9787; Mahlet Asrat  </h2> </legend>
-              <img src="../files/my_grad.jpg" alt="My Picture">
-             <p> Meet Mahlet, a passionate and driven software engineering student at AAU who is dedicated to her studies and the world of technology. With an unwavering enthusiasm for learning, she is constantly pushing the boundaries of her knowledge and skills in the field. 
-              But her ambitions don't stop there. Mahlet is also actively involved in motivating and inspiring girls to pursue STEM fields, recognizing the importance of diversity and inclusivity in the tech industry.
-               Through her work, she strives to break down barriers and empower young girls to embrace their potential in the world of science, technology, engineering, and mathematics
-           </fieldset>
-        </div>
-        <div>
-          <a href="mailto:mahletasratz@gmail.com"> <h3> &#9993; E-mail me </h3> </a> 
-          <a  href="tel:+251900830829"> <h3> <i class="fa fa-phone"></i> Phone me </h3></a>
-          <a  href="https://www.instagram.com/skiunior/"><i class="fa fa-instagram"></i> My Instagram </a>
-          <address> Bethel, Addis Ababa, Ethiopia</address>
-        </div>
-        <aside>
-         <h4>I am deeply passionate about works that require creative thinking, such as writing and making plays. 
-          These artistic endeavors allow me to explore the depths of my imagination and bring my ideas to life in 
-          unique and captivating ways. Through writing and making plays, I have the opportunity to express my thoughts, emotions, and perspectives,
-           and to connect with others on a profound level. 
-        </h4>
-        <a href="/images/Book-Club-Certificate.pdf" download="Mahlet's-Personal-Essay"> Download My Personal-Essay  </a>
-         </aside>
+  </div>
+</fieldset>
+
+<aside class="text-lg md:text-2xl mx-4 md:mx-8 xl:mx-64 my-10 p-5 rounded-3xl bg-cyan-100">
+  <h3 class="mb-6">
+    🔮 I am deeply passionate about works that require creative thinking, such as writing and making plays. These artistic endeavors allow me to explore the depths of my imagination and bring my ideas to life in unique and captivating ways. Through writing and making plays, I have the opportunity to express my thoughts, emotions, and perspectives, and to connect with others on a profound level.
+  </h3>
+  <a class="bg-gray-50 px-4 my-8 rounded-3xl hover:bg-red-400 underline italic text-blue-600" href="/images/Book-Club-Certificate.pdf" download="Mahlet's-Personal-Essay">Download My Personal-Essay</a>
+</aside>
       </section>
       <hr>
-      <section> 
-        <h2> My Photo Album </h2>
-        <div> 
-          <h3> Age &lt; = 10 </h3>
-          <img src="../files/child_1.jpg" alt="Baby Image">
-          <img src="../files/twiny.jpg" alt="Me and my Twin">
-          <img src="../files/me_child.jpg" alt="When I was a kid">
+      <section > 
+        <h2 class=" md:text-3xl hover:bg-red-600 xl:text-5xl text-gray-900 px-6 py-6 shadow-2xl rounded-3xl font-bold text-center bg-gradient-to-r from-pink-500 to-violet-300 xl:my-12 xl:mx-36 "> &#128366; My Photo Album </h2>
+          <h3 class =" ml-6 my-4 text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-800 to-blue-500">  Age &lt; = 10 </h3>  🍭 🍭
+          <div class=" grid grid-cols-4 bg mx-16 ">
+            <img class=" border-solid border-2 border-red-600 rounded-3xl " src="../files/child_1.jpg" alt="Baby Image">
+            <img class=" border-solid border-2 border-red-600 ml-2 rounded-3xl" src="../files/me_child.jpg" alt="Me and my Twin">
+            <img class=" border-solid border-2 border-red-600  ml-4 rounded-3xl " src="../files/twiny.jpg" alt="When I was a kid">
+            <img class=" border-solid border-2 border-red-600  mx-8 rounded-3xl" src="../files/child_1.jpg" alt="Me and my Twin"> 
+          </div>
         </div>
         <div> 
-          <h3> Age Greater than 11 </h3>
-          <img src="../files/mine.jpg" alt="My picture">
-          <img src="../files/group_pic.jpg" alt="Graduation">
-          <img src="../files/adult_1.jpg" alt="With Friends">
-          <img src="../files/Me.jpg" alt="Vacation" >
+          🍭 🍭 <h3 class="ml-6 my-8  text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-800 to-blue-500"> Age Greater than 11 </h3>
+          <div class="grid grid-cols-2"> 
+            <img class="rounded-3xl ml-8 w-1/2 border-solid border-2 border-red-600" src="../files/mine.jpg" alt="My picture">
+            <img class="rounded-3xl  -ml-12  border-solid border-2 border-red-600" src="../files/group_pic.jpg" alt="Graduation">
+            <img class="rounded-3xl mx-8   mt-8 border-solid border-2 border-red-600 mr-4 " src="../files/adult_1.jpg" alt="With Friends">
+            <img class="rounded-3xl mt-8  ml-12   border-solid border-2 border-red-600 h-1/2" src="../files/Me.jpg" alt="Vacation">
+          </div>
         </div>
       </section>
-      <div>
-        <form action="education.html"> <button type="submit"> Next Page</button> </form>
+      <div class= "flex justify-end">
+        <form action="education.html"> <button type="submit" class="bg-blue-500 hover:bg-blue-700 animate-bounce text-white font-bold  mb-6 py-4 px-6 rounded-3xl" > Next Page</button> </form>
       </div>
-      <footer id="copy"> © Copyright  | Nov, 2023 | Protected By law </footer>
-      
+      <div class="bg-gray-800 text-white py-4">
+        <footer class="container text-2xl sm:text-xl mx-auto flex justify-center">
+          <p class="text-center">
+            &copy; <span class="block sm:inline">Copyright</span> | <span class="block sm:inline">Nov, 2023</span> | <span class="block sm:inline">Protected By Law</span>
+          </p>
+        </footer>
+      </div>
 </body>
 </html>
